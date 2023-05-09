@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/Backround.jpg);
+    background-size: cover;
+}
+#main{
+    display: none;
+}
+/* Starter */
+.starter{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button{
+    padding: 12px;
+    border-radius: 6px;
+    
+}
+/* Score */
+
+#section-1{
+    width: 40%;
+    height: 70px;
+    background-color: rgba(222, 184, 135, 0.616);
+    margin:auto ;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.about-player{
+    width: 70px;
+    height: 25px;
+    color:white;
+    text-align: center;
+    background-color: brown;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    position: absolute;
+}
+#user{
+    top: 20px;
+    left: -20px;
+}
+#bot{
+   right: -20px;
+   bottom: 20px;
+
+}
+
+/*section -2*/
+#section-2{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.player{
+    width: 30%;
+    border-radius: 20px;
+    background-color: rgba(222, 184, 135, 0.616);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.image{
+    cursor: pointer;
+    width: 70px;
+    border-radius: 50%
+}
+.image:hover{
+    background-color: rgba(224, 138, 26, 0.616)
+}
+.change-image{
+    width: 300px;
+}
+#info-player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.player-name{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.about-winner{
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+}

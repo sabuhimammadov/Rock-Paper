@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link
+      rel="stylesheet"
+      href="./assent/style/style.css"
+    />
+  </head>
+  <body>
+    <!--Starter-->
+    <div class="starter" >
+      <input type="text" placeholder="Enter Your Name" id ="name-value" />
+      <button id="start-game">Start Game</button>
+    </div>
+    <!--Score-->
+    <main id="main">
+      <section id="section-1">
+        <div id="score">
+        <!-- <span id="user-score">0</span> :<span id="computer-score">0</span>--> 
+        </div>
+        <div id="user" class="about-player">player</div>
+        <div id="bot" class="about-player">Bot</div>
+      </section>
+      <!--players-->
+      <section id="section-2">
+        <!--player 1-->
+        <div id="user-player" class="player">
+          <h6 id="user-name" class="player-name"></h6>
+          <div id="info-player">
+            <p id="user-winner" class="about-winner">DRAFT</p>
+            <div id="move-player">
+              <img
+              id="choice-user"
+              class="change-image"
+                src="./assent/images/draft.png"
+                alt="draft"
+              />
+            </div>
+            <div id="choices">
+              <img
+                src="./assent/images/scissors-icon.png"
+                alt="scissors-icon"
+                id="scissor"
+                class="image"
+              />
+              <img
+                src="./assent/images/rock-icon.png"
+                alt="rock-icon"
+                id="rock"
+                class="image"
+              />
+              <img
+                src="./assent/images/paper-icon.png"
+                alt="paper-icon"
+                id="paper"
+                class="image"
+              />
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assent/images/Vs.png"
+          alt=""
+          class="fight"
+        />
+        <div id="computer-player" class="player">
+          <h6 class="player-name">Bot</h6>
+          <div id="info-player">
+            <p id="bot-winner" class="about-winner">DRAFT</p>
+            <div id="move-player">
+              <img
+              id="choice-bot"
+                class="change-image"
+                src="./assent/images/draft.png"
+                alt="draft"
+              />
+            </div>
+            <div >
+              <img
+                src="./assent/images/scissors-icon.png"
+                alt="scissors-icon"
+                class="image"
+              />
+              <img
+                src="./assent/images/rock-icon.png"
+                alt="rock-icon"
+                class="image"
+              />
+              <img
+                src="./assent/images/paper-icon.png"
+                alt="paper-icon"
+                class="image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/dom.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
